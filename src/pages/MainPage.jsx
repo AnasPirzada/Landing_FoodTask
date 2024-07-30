@@ -17,15 +17,20 @@ const MainPage = () => {
   return (
     <div>
       {loading ? (
-        <Loader />
+        <Loader data-testid="loader" />
       ) : (
         <>
           <Header
+            data-testid="header"
             activeCategory={activeCategory}
             setActiveCategory={setActiveCategory}
             setSearchTerm={setSearchTerm}
           />
-          <FoodList activeCategory={activeCategory} searchTerm={searchTerm} />
+          <FoodList
+            data-testid="food-list"
+            activeCategory={activeCategory}
+            searchTerm={searchTerm}
+          />
         </>
       )}
     </div>

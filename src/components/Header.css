@@ -86,22 +86,39 @@
 /* Responsive design */
 @media (max-width: 600px) {
   .search-bar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
   }
 
   .search-icon {
-    margin-bottom: 10px;
     cursor: pointer;
   }
 
-  .categories {
-    flex-direction: column;
-    align-items: flex-start;
+  .inside-search {
+    width: 100%;
   }
 
+  .suggestions-list {
+    top: 40px;
+    height: auto;
+    max-height: 300px;
+  }
+
+  .categories {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .category-active {
+    border-radius: 0px 0px 0px 0px;
+  }
   .category {
     width: 100%;
     text-align: center;
+    border-left: none;
+    border-top: 1px solid #ffcc00;
+  }
+
+  .category:first-child {
+    border-top: none;
   }
 }
