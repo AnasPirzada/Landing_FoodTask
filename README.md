@@ -108,6 +108,3 @@ Time: 3.733 s</code></pre>
   <li>vite: ^5.3.4</li>
   <li>vite-plugin-eslint: ^1.8.1</li>
 </ul>
-## Live Demo
-
-<a href="https://food-landing-website-page.netlify.app/" target="_blank">Link</a>
