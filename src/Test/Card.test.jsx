@@ -1,14 +1,15 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import Card from "../components/Card";
-import '@testing-library/jest-dom'; 
+import "@testing-library/jest-dom";
 test("renders card with correct data", () => {
   const cardData = {
     name: "Test Food",
     rating: 4.5,
     minCookTime: 10,
     maxCookTime: 20,
-    imageUrl: "",
+    imageUrl:
+      "https://zen.wego.com/cdn-cgi/image/width=600/web/mock/exam/drink.jpg",
     isNew: true,
     promotion: "gift",
   };
