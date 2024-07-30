@@ -1,0 +1,18 @@
+.See-Button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.See-Button .SeeMore {
+  background-color: transparent;
+  padding: 20px;
+  border: 1px solid #ffcc00;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+
+  color: #474747;
+  border-radius: 10px;
+}
